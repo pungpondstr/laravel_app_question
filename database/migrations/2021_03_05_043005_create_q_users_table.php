@@ -21,7 +21,7 @@ class CreateQUsersTable extends Migration
             $table->string('password');
             $table->string('email');
             $table->string('tel');
-            $table->string('user_role')->default('doctor');
+            $table->string('user_role');
             $table->longText('passport_images');
             $table->timestamps();
         });

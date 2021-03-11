@@ -11,7 +11,6 @@ class QUser extends Model
         'last_name',
         'passport_id',
         'password',
-        'confirm_password',
         'email',
         'tel',
         'user_role',
